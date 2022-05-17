@@ -11,5 +11,5 @@ const PORT = 3000 || process.env.PORT;
 app.use(express.static(path.join(__dirname, "public")));
 
 app.listen(PORT, ()=>{
-    console.log(`Sunucu localhost:${PORT}'da çalışıyor.`);
+    console.log(`Server is running on localhost:${PORT}'.`);
 });
